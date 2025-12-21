@@ -9,7 +9,7 @@ h1 {
 
 button {
   width: 25%;
-  height: 50px;
+  height: 80px;
   margin-left: 10px;
   margin-right: 10px;
   font-size: 1rem;
@@ -19,9 +19,23 @@ button {
 
 .button {
   position: relative;
-  -ms-transform: translate(10%, 20%);
-  transform: translate(10%, 20%);
+  -ms-transform: translate(24.5%, 0);
+  transform: translate(24.5%, 0);
   width: 100%;
+}
+
+.buttonkpi {
+  position: relative;
+  -ms-transform: translate(52%, 0);
+  transform: translate(52%, 0);
+}
+
+.buttonlist {
+  background-color: paleturquoise;
+}
+
+.buttonlist:hover {
+  background-color: silver;
 }
 
 .frame {
