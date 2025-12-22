@@ -1,5 +1,5 @@
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   position: relative;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
@@ -7,12 +7,27 @@ h1 {
   text-align: center;
 }
 
+.kpititle {
+  font-size: 0.9rem;
+  position: relative;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.kpiresult {
+  font-size: 0.85rem;
+  position: relative;
+  text-align: center;
+}
+
 button {
   width: 25%;
-  height: 80px;
+  height: 2.5rem;
   margin-left: 10px;
   margin-right: 10px;
-  font-size: 1rem;
+  font-size: 0.6rem;
   display: inline-block;
   vertical-align: top;
 }
