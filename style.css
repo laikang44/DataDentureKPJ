@@ -1,5 +1,5 @@
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   position: relative;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
@@ -8,7 +8,7 @@ h1 {
 }
 
 .kpititle {
-  font-size: 0.9rem;
+  font-size: 1.8rem;
   position: relative;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
@@ -17,45 +17,62 @@ h1 {
 }
 
 .kpiresult {
-  font-size: 0.85rem;
+  font-size: 1.5rem;
   position: relative;
   text-align: center;
 }
 
 button {
-  width: 25%;
-  height: 2.5rem;
-  margin-left: 10px;
-  margin-right: 10px;
-  font-size: 0.6rem;
+  width: 20%;
+  height: 4rem;
+  margin-left: 2px;
+  margin-right: 2px;
+  font-size: 1rem;
   display: inline-block;
   vertical-align: top;
 }
 
 .button {
   position: relative;
-  -ms-transform: translate(24.5%, 0);
-  transform: translate(24.5%, 0);
+  margin: auto;
   width: 100%;
+  margin: auto;
+}
+
+.buttonreten {
+  position: relative;
+  margin: auto;
 }
 
 .buttonkpi {
   position: relative;
-  -ms-transform: translate(52%, 0);
-  transform: translate(52%, 0);
+  margin: auto;
 }
 
 .buttonlist {
   background-color: paleturquoise;
+  margin: auto;
 }
 
 .buttonlist:hover {
   background-color: silver;
 }
 
-.frame {
-  position: relative;
-  /* -ms-transform: translate(20%, 0);
-  transform: translate(20%, 0); */
-  justify-items: center;
+.center1 {
+  margin: 0;
+  -ms-transform: translate(10%, 0%);
+  transform: translate(10%, 0%);
 }
+
+.center2 {
+  margin: 0;
+  -ms-transform: translate(30.25%, 0%);
+  transform: translate(30.25%, 0%);
+}
+
+.center3 {
+  margin: 0;
+  -ms-transform: translate(40.2%, 0%);
+  transform: translate(40.2%, 0%);
+}
+
