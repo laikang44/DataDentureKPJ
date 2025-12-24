@@ -92,14 +92,16 @@
 
 <script>
 
-  const url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-LpqHK2ZLSfTUB3Te4DCVF-z6k_DsyvyKAnBhYypsgIe6w2DQ6ZzHqrgPt0q192F7FfYahC8BeEyT/pub?gid=789477847&single=true&output=csv";
   const kpi1 = document.querySelector("#kpi1");
   const kpi2 = document.querySelector("#kpi2");
+
+  kpi1.innerHTML = "<p>Sedang Memuatkan...</p>"
+  kpi2.innerHTML = "<p>Sedang Memuatkan...</p>"
+
+  const url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-LpqHK2ZLSfTUB3Te4DCVF-z6k_DsyvyKAnBhYypsgIe6w2DQ6ZzHqrgPt0q192F7FfYahC8BeEyT/pub?gid=789477847&single=true&output=csv";
+  
   const color1 = document.getElementById("kpi1");
   const color2 = document.getElementById("kpi2");
-
-  kpi1.innerHTML = "<p>Sedang Dimuatkan...</p>"
-  kpi2.innerHTML = "<p>Sedang Dimuatkan...</p>"
 
   fetch(url)
   .then(result=>result.text())
