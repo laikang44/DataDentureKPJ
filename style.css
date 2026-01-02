@@ -78,6 +78,6 @@ button {
 
 @media (max-width: 768px) {
   button {
-    font-size: 0.6rem; /* Smaller font size for low resolution */
+    font-size: 0.6rem;
   }
 }
